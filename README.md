@@ -1,8 +1,9 @@
-# Get Leetcode Problems
-### Script to save Leetcode problem links and info to csv files. **Excludes "Paid-Only" problems.**
+# Get LeetCode Problems
+## For those tired of searching through LeetCode for FREE problems!
 ![leetcode.png](leetcode.png)
+### get_leetcode_problems.py is a script to save LeetCode problem links and info to csv files. **Excludes "Paid-Only" problems.**
 ## CSV File Fields
-1. stat.frontend_question_id - **Problem # as seen on Leetcode site**
+1. stat.frontend_question_id - **Problem # as seen on LeetCode site**
 2. difficulty.level - **Difficulty from 1-3 (Easy/Medium/Hard)**
 3. stat.question__title - **Problem Title**
 4. link
