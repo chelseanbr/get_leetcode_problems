@@ -1,27 +1,28 @@
 # Get Leetcode Problems
-### Script to save Leetcode problem links and info to csv files. Excludes "Paid-Only" problems.
+### Script to save Leetcode problem links and info to csv files. **Excludes "Paid-Only" problems.**
+![leetcode.png](leetcode.png)
 ## CSV File Fields
 1. stat.frontend_question_id - **Problem # as seen on Leetcode site**
 2. difficulty.level - **Difficulty from 1-3 (Easy/Medium/Hard)**
 3. stat.question__title - **Problem Title**
 4. link
 
-## Problem Types Supported:
+## Problem Types Supported
 1. algorithms
 2. database
 * Script uses Leetcode api: https://leetcode.com/api/problems/{problem-type}
 
 ## File Tree
 ```
-get_leetcode_problems
-
+.
 ├── README.md
 ├── get_leetcode_problems.py
+├── leetcode.png
 └── problems
     ├── algorithms.csv
     └── database.csv
 
-1 directory, 4 files
+1 directory, 5 files
 ```
 
 ## How to Get Leetcode Problems
